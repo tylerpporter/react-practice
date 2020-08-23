@@ -1,8 +1,6 @@
 import React from 'react' 
 import { useForm } from 'react-hook-form' 
 
-
-
 const Pokemon = ({name, link}) => {
     function capitalizeName(string) {
         return string.charAt(0).toUpperCase() + string.slice(1); 
